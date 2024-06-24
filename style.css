@@ -1,0 +1,232 @@
+* {
+margin: 0;
+box-sizing: border-box;
+}
+
+html, body {
+height: 100%;
+padding: 0;
+/* background-color: #232222; */
+font-family: "Della Respira", serif;
+font-weight: 400;
+font-style: normal;
+}
+.header{          
+height: 40%;
+border-radius: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+/*background-image: url("MOON.jpg");*/
+background-color: #000000;
+background-size: 100% 100%;
+color: white;
+
+}
+
+
+
+
+/* Style the top navigation bar */
+.navbar {
+display: flex;
+background-color: #000000;
+margin-top: 1px;
+margin-bottom: 1px;
+border-radius: 15px;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+color: white;
+padding: 14px 20px;
+text-decoration: none;
+text-align: center;
+
+}
+/* Change color on hover */
+.navbar a:hover {
+/* background-color: rgb(55, 39, 28); */
+color: #ffffff;
+border-radius: 15px;
+text-shadow: 2px 2px 5px rgb(167, 113, 76);
+font-family: "Black Ops One", system-ui;
+font-weight: 400;
+font-style: normal;
+}
+
+.infoblock{
+    background-color: #000000;
+    /* border-radius: 15px; */
+    color: #ffffff;
+    text-align: start;
+    padding: 10px;
+    /* height: 100%; */
+}
+.container{
+    display: flex;
+    float: left;
+    flex-direction: row;
+}
+.profilepic{
+    width: 40%;
+    height: 80%;
+    padding-right: 10px;
+    border-radius: 15px 15px 15px 15px;
+    margin-right: 10%;
+    
+}
+.myinfo{
+    text-align: start;
+}
+h1 {
+text-shadow: 2px 2px 5px rgb(167, 113, 76);
+font-family: "Black Ops One", system-ui;
+font-weight: 400;
+font-size: 45px;
+font-style: normal;
+text-align: center;
+margin-bottom: 10px;
+}
+
+
+.contactLinks{
+    text-decoration: none;
+    color: #c6960f;
+}
+.contactLinks:hover{
+    text-shadow: 2px 2px 5px rgb(167, 113, 76);
+}
+.snapshot{
+    width: 80%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+
+/* added codes */
+
+.parallax1{
+      /* The image used */
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),url("pics/bg.jpg");
+
+  /* Full height */
+  height: 100%; 
+  margin: 0;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icontopleft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.navlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+/* Style the navigation bar links */
+    .navlist li a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+    
+    }
+    /* Change color on hover */
+    .navlist li a:hover {
+    /* background-color: rgb(55, 39, 28); */
+    color: #ffffff;
+    border-radius: 15px;
+    text-shadow: 2px 2px 5px rgb(167, 113, 76);
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    }
+
+    .introstyling{
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-between; */
+        margin-left: 10px;
+        height: 100%;
+    }
+
+    .intro p{
+        
+        color: #ffffff;
+        border-radius: 15px;
+        text-shadow: 2px 2px 5px rgb(167, 113, 76);
+        font-family: "Black Ops One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 40px;
+    }
+
+    .highlight{
+        color: rgb(213, 186, 116);
+        border-radius: 15px;
+        text-shadow: 2px 2px 5px rgb(167, 113, 76);
+        font-family: "Black Ops One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 40px; 
+    }
+
+    .aboutinfo{
+        font-size: 20px;
+        margin-bottom: 20px; 
+    }
+    .logopic{
+        /* display: flex; */
+        /* justify-content: space-evenly; */
+        text-align: center;
+        margin-bottom: 30px; 
+    }
+    .logo{
+        left: 0;
+        top: 1px;
+        width: 60px;
+        height: 60px;
+        margin-right: 25px;
+        transition: box-shadow 0.3s ease; /* Smooth transition for the shadow */
+    }
+    .logo:hover {
+        box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7); /* White shadow */
+    }
+    .proj_list{
+        text-align: center;
+    }
+    .proj_item{
+        margin-bottom: 20px;
+    }
+    .desc{
+        font-size: 20px;
+    }
+
+    h2 {
+        text-shadow: 2px 2px 5px rgb(167, 113, 76);
+        font-family: "Black Ops One", system-ui;
+        /* font-weight: 400; */
+        font-style: normal;
+        text-align: center;
+        /* margin-bottom: 20px; */
+    }
+
