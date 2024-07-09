@@ -208,7 +208,15 @@ margin-bottom: 10px;
         margin-right: 25px;
         transition: box-shadow 0.3s ease; /* Smooth transition for the shadow */
     }
-    .logo:hover {
+    .logo1{
+        left: 0;
+        top: 1px;
+        width: 66px;
+        height: 66px;
+        margin-right: 25px;
+        transition: box-shadow 0.3s ease; /* Smooth transition for the shadow */
+    }
+    .logo:hover, .logo1:hover {
         box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7); /* White shadow */
     }
     .proj_list{
