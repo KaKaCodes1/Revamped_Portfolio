@@ -62,7 +62,7 @@ font-style: normal;
     color: #ffffff;
     text-align: start;
     padding: 10px;
-    /* height: 100%; */
+    height: auto;
 }
 .container{
     display: flex;
@@ -99,6 +99,11 @@ margin-bottom: 10px;
     text-shadow: 2px 2px 5px rgb(167, 113, 76);
 }
 .snapshot{
+    width: 80%;
+    height: 60%;
+    border-radius: 10px;
+}
+.Appsnapshot{
     width: 80%;
     height: 60%;
     border-radius: 10px;
@@ -206,6 +211,7 @@ margin-bottom: 10px;
         width: 60px;
         height: 60px;
         margin-right: 25px;
+        margin-bottom: 20px;
         transition: box-shadow 0.3s ease; /* Smooth transition for the shadow */
     }
     .logo1{
@@ -214,6 +220,7 @@ margin-bottom: 10px;
         width: 66px;
         height: 66px;
         margin-right: 25px;
+        margin-bottom: 20px;
         transition: box-shadow 0.3s ease; /* Smooth transition for the shadow */
     }
     .logo:hover, .logo1:hover {
@@ -224,6 +231,7 @@ margin-bottom: 10px;
     }
     .proj_item{
         margin-bottom: 20px;
+        height: auto;
     }
     .desc{
         font-size: 20px;
