@@ -11,35 +11,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- <div class="header">
-        <img class="logo" src="pics\TRALOGO.png">
-        
 
-    </div>
-    <div class="navbar">
-        <a href="#Home">Home</a>
-        <a href="#About">About</a>
-        <a href="#Projects">Projects</a>
-        <a href="#Contact">Contact Me!</a>
-    </div>
-    <div class="infoblock">
-        <h1 id="Home">Home</h1>
-        <div class="container">
-        <img class="profilepic" src="pics\me.jpg" alt="picture of me" title="picture of me">
-
-        <div class="myinfo">
-            <p><b>Name:</b> Hamisi Juma</p>
-            <p><b>Age:</b> 19</p>
-            <p><b>School:</b> Catholic University of Eastern Africa</p>
-            <p><b>Course:</b> Computer Science</p>
-
-        </div>
-
-        </div>
-        <br> -->
 
         <div class="parallax1" id="#Home">
+        <header>
             <img class="icontopleft" src="pics\kinglogo.png" alt="logo" >
+            <nav >
             <ul class="navlist">
                 <li><a href="#Home">Home</a></li>
                 <li><a href="#About">About</a></li>
@@ -47,15 +24,18 @@
                 <li><a href="#Projects">Projects</a></li>
                 <li><a href="#Apps">Apps</a></li>
                 <li><a href="#Contact">Contact Me!</a></li>
-            </ul>  
-            
+            </ul>
+            </nav> 
+            <div class="hamburger" onclick="toggleMenu()">☰</div> 
+        </header>
+
             <div class="introstyling">
             <img class="profilepic" src="pics\me.jpg" alt="picture of me" title="picture of me">
 
             <div class="intro">
                 <p>
-                    Hi! I'm <span class="highlight">Hamisi Juma.</span><br>
-                    I am a <span class="highlight">Web</span> and <span class="highlight">Flutter</span> Developer<br>
+                    Hi! I'm <span class="highlight">Hamisi Juma.</span>
+                    I am a <span class="highlight">Web</span> and <span class="highlight">Flutter</span> Developer.
                     Welcome to My <span class="highlight">Portfolio Kingdom</span>!!
                 </p>
              </div> <!--intro -->
@@ -165,6 +145,6 @@
 
         </div> <!-- infoblock -->
 
-
+<script src="script.js"></script>
 </body>
 </html>
