@@ -1,4 +1,11 @@
 // script.js
+
+// JavaScript to hide the loader and show the content once the page is fully loaded
+window.addEventListener("load", function() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("content").style.display = "block";
+});
+
 //function that displays the dropdown menu when the screen is reduced
 function toggleMenu() {
     const navList = document.querySelector('.navlist');
