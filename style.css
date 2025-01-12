@@ -10,6 +10,7 @@
     font-family: "Della Respira", serif;
     font-weight: 400;
     font-style: normal;
+    background-color: black;
     }
 
     /* Loader Styles */
@@ -249,6 +250,11 @@
         text-align: center;
         margin-bottom: 30px; 
     }
+
+    .ContactLogos{
+        margin-bottom: 0;
+        text-align: center;
+    }
     .logo{
         left: 0;
         top: 1px;
@@ -264,6 +270,16 @@
         width: 66px;
         height: 66px;
         margin-right: 25px;
+        margin-bottom: 20px;
+        transition: box-shadow 0.3s ease; /* Smooth transition for the shadow */
+    }
+
+    .logo2{
+        left: 0;
+        top: 1px;
+        width: 66px;
+        height: 66px;
+        /* margin-right: 25px; */ /*This is commented out for the github logo in the contact section to make the rest of the logos remain center*/
         margin-bottom: 20px;
         transition: box-shadow 0.3s ease; /* Smooth transition for the shadow */
     }
@@ -289,6 +305,13 @@
         font-style: normal;
         text-align: center;
         /* margin-bottom: 20px; */
+    }
+
+    footer{
+        text-align: center;
+    }
+    footer p{
+        font-size: 15px;
     }
 
     /*For Responsivity*/
